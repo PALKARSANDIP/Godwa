@@ -40,12 +40,12 @@ const whyChoose = [
 ]
 
 const galleryPreviews = [
-  '/Images/2025/6Y9A0344.jpg',
-  '/Images/2025/6Y9A0289.jpg',
-  '/Images/2025/6Y9A0138.jpg',
-  '/Images/2025/6Y9A0142.jpg',
-  '/Images/2025/6Y9A0244.jpg',
-  '/Images/2025/6Y9A0251.jpg',
+  '/Images/2025/6Y9A0344.JPG',
+  '/Images/2025/6Y9A0289.JPG',
+  '/Images/2025/6Y9A0138.JPG',
+  '/Images/2025/6Y9A0142.JPG',
+  '/Images/2025/6Y9A0244.JPG',
+  '/Images/2025/6Y9A0251.JPG',
 ]
 
 const marqueeItems = [
@@ -64,7 +64,7 @@ export default function HomeClient() {
     <div style={{ overflowX: 'hidden' }}>
 
       {/* ── HERO ── */}
-      <section style={{ position: 'relative', height: '100vh', minHeight: 620, display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
+      <section style={{ position: 'relative', height: '100vh', minHeight: 620, display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden', background: '#0d1f35' }}>
 
         {/* Video background */}
         <video
@@ -72,6 +72,7 @@ export default function HomeClient() {
           muted
           loop
           playsInline
+          poster="/Images/2025/6Y9A0093.JPG"
           style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         >
           <source src="/videos/DJI_20251220135550_0301_D.mp4" type="video/mp4" />
