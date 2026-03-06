@@ -40,13 +40,13 @@
 Open TWO files and replace YOUR_PROJECT_ID with your actual Project ID:
 
 FILE 1: sanity.config.js (line 19)
-  projectId: 'YOUR_PROJECT_ID',   ← replace this
+  projectId: 'tgsy9rl4',   ← replace this
 
 FILE 2: lib/sanity.client.js (line 9)
-  export const projectId = 'YOUR_PROJECT_ID'   ← replace this
+  export const projectId = 'tgsy9rl4'   ← replace this
 
-Example (if your Project ID was "abc12xyz"):
-  projectId: 'abc12xyz',
+Example (if your Project ID was "tgsy9rl4"):
+  projectId: 'tgsy9rl4',
 
 
 ## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -58,8 +58,8 @@ This allows your website to read content from Sanity.
 1. Go to: https://www.sanity.io/manage
 2. Click your project → "API" tab → "CORS Origins"
 3. Click "Add CORS origin"
-4. Add your Vercel URL: https://your-site.vercel.app
-5. Add your custom domain: https://www.godwadairyexpo.com
+4. Add your Vercel URL: https://dairyindustry.vercel.app/
+5. Add your custom domain: https://dairyindustry.in/
 6. Check "Allow credentials" → Save
 7. Also add: http://localhost:3000 (for local development)
 
