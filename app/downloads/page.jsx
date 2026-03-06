@@ -1,4 +1,4 @@
-import { buildMetadata } from '@/lib/seo'
+import { buildMetadata, buildBreadcrumbs } from '@/lib/seo'
 import { Download, FileText, Map, Image, List, BookOpen, AlignLeft } from 'lucide-react'
 
 const docs = [
