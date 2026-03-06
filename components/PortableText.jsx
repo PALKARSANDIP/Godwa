@@ -1,5 +1,5 @@
 // components/PortableText.jsx
-// Renders Sanity's rich text (body content) as styled HTML
+
 'use client'
 
 import { urlFor } from '@/lib/sanity.client'
